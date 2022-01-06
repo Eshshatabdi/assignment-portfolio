@@ -1,9 +1,11 @@
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 0;
+    margin:0px;
+    
     }
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 100px;
 }
 h1{
     color: black;
@@ -18,6 +20,8 @@ h1{
     margin-left: 2%;
     border-left: 4px solid tomato;
     padding-left: 2%;
+    border-radius: 0%
+   
 }
 
 span{
@@ -26,16 +30,52 @@ span{
 }
 .half-width{
     width: 50%;
-    padding: 5%;
+    padding-left:8%;
 }
-.half-widt image{
-    width: 80%;
+.half-width img{
+    width: 70%;
+  
 
 }
+
 .link-button{
     background-image: linear-gradient(red,tomato);
     text-decoration: none;
     color: ghostwhite;
     padding: 5px 10px;
 
+}
+.text-center{
+    text-align: center;
+}
+.mission-item{
+    width: 80%;
+    margin-right: 10%;
+    margin-left:  5%;
+    padding: 20px 10px;
+    border-radius: 5%;
+    height: 300px;
+    
+    
+    
+
+}
+.mission-item img{
+    width: 40%;
+}
+#mission-part{
+    width: 100%;
+    border: 2px;
+    background-color: skyblue;
+
+}
+#vission-part{
+    width: 100%;
+    border: 10px;
+    background-color: thistle;
+}
+#goal-part{
+    width: 100%;
+    border: 10px;
+    background-color: wheat;
 }
