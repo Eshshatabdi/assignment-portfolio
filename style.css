@@ -5,7 +5,8 @@ body{
     }
 .flexible-container{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
+   
 }
 h1{
     color: black;
@@ -49,8 +50,8 @@ span{
 .text-center{
     text-align: center;
 }
-.mission-item{
-    width: 80%;
+.mission-vission-goal-item{
+    width: 100%;
     margin-right: 10%;
     margin-left:  5%;
     padding: 20px 10px;
@@ -61,7 +62,7 @@ span{
     
 
 }
-.mission-item img{
+.mission-vission-goal-item img{
     width: 40%;
 }
 #mission-part{
@@ -88,9 +89,10 @@ small{
 }
 .color-add{
     color: white;
-    text-align: center;
+   
 }
 footer{
     background-color: black;
     text-align: center;
+    color: white;
 }
