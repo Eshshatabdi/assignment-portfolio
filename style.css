@@ -31,6 +31,7 @@ span{
 .half-width{
     width: 50%;
     padding-left:8%;
+    padding-right:6;
 }
 .half-width img{
     width: 70%;
@@ -78,4 +79,18 @@ span{
     width: 100%;
     border: 10px;
     background-color: wheat;
+}
+strong{
+    color: sandybrown;
+}
+small{
+    color: white
+}
+.color-add{
+    color: white;
+    text-align: center;
+}
+footer{
+    background-color: black;
+    text-align: center;
 }
